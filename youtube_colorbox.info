@@ -1,0 +1,9 @@
+name = Youtube Colorbox
+description = "Adds a button to allow inserting embed youtube video and open with colorbox."
+package = Other
+version = 7.x-1.0
+core = 7.x
+configure = admin/config/content/wysiwyg
+dependencies[] = wysiwyg
+dependencies[] = colorbox
+
